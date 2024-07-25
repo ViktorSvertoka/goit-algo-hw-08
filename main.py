@@ -2,15 +2,7 @@ import heapq
 
 
 def min_cost_to_connect_cables(cable_lengths):
-    """
-    Функція для знаходження мінімальних витрат на об'єднання мережевих кабелів.
 
-    Параметри:
-    cable_lengths (list): Список довжин кабелів.
-
-    Повертає:
-    int: Мінімальні витрати на об'єднання кабелів.
-    """
     # Ініціалізуємо купу
     heapq.heapify(cable_lengths)
 
